@@ -1,0 +1,65 @@
+---
+title: "ML Non-Linear Models Example"
+author: "Karl Shaffer"
+date: "3/28/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("KeckLib.R")
+```
+
+# 1 - Read in Our Data.
+```{r, echo=TRUE, eval=TRUE}
+data <- read.table("auto-mpg.data")
+colnames(data) <- c("mpg", "cylinders", "displacement", "horsepower", "weight", "acceleration", "model year", "origin", "name")
+
+data <- data.frame(data)
+```
+
+# 2 - Take a Peek at What We're Dealing With
+```{r, echo=TRUE, eval=TRUE}
+
+```
+
+# 3 - Santizing the Data and Correcting for Irregularities
+```{r, echo=TRUE, eval=TRUE}
+
+```
+
+# 4 - Let's develop a Formula
+```{r, echo=TRUE, eval=TRUE}
+
+```
+
+# 5 - Start Simple, the Linear Model.  
+```{r, echo=TRUE, eval=TRUE}
+
+```
+
+# 6 - Back to Basics, a Neural Net
+
+## Get Neural Net (nnet)
+```{r, echo=TRUE, eval=TRUE}
+
+```
+
+## Develop the Net
+```{r, echo=TRUE, eval=TRUE}
+
+```
+
+
+# 7 - MARS (Earth)
+
+## Get Mars
+```{r, echo=TRUE, eval=TRUE}
+
+```
+
+## Develop Model
+```{r, echo=TRUE, eval=TRUE}
+
+```
+
